@@ -27,6 +27,10 @@ a {
   color: rgb(175, 175, 175);
 }
 
+a:hover {
+  color: yellow;
+}
+
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -65,14 +69,34 @@ label {
 
 #cart-container {
   background-color: gray;
-  font-size:  15pt;
+  font-size:  20pt;
+  text-align: center;
   padding: 10px;
   display: grid;
-  margin-bottom: 280px;
+  margin-bottom: 350px;
 }
 
 footer {
   margin-top: 138px;
   font-size: 20pt;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+  background-color: gainsboro;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  text-align: center;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+input:hover {
+ background-color: gold;
+}
+
+select:hover {
+  background-color: gold;
 }

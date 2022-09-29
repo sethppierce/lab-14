@@ -1,1 +1,35 @@
 /* TODO: Make it awesome */
+
+body {
+  background-image: linear-gradient(yellow
+  , rgb(255, 255, 211));
+}
+
+h1 {
+  font-size: 40pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: gray;
+  padding: 20px;
+  color: gold;
+}
+
+nav {
+  background-color: rgb(43, 43, 43);
+}
+
+a {
+  color: rgb(175, 175, 175);
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+  ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+  }
